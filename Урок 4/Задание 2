@@ -1,0 +1,16 @@
+a = int(input())
+b = int(input())
+
+mult = a * b
+div = a / b
+wrem = a // b
+rem = a % b
+power = a ** b
+
+print(a, 'умноженное на', b, 'равно', mult)
+print(a, 'деленное на', b, 'равно', div)
+print(a, 'нацело деленное на', b, 'равно', wrem)
+print('Остаток от деления', a, 'на', b, 'равен', rem)
+print(a, 'в степени', b, 'равно', power)
+
+
