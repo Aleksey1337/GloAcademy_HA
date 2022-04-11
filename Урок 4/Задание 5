@@ -1,0 +1,7 @@
+a = int(input())
+
+hour = a // 3600
+minute = (a - hour * 3600) // 60
+second = (a - hour * 3600) % 60
+
+print(a, 'секунд - это', hour, 'час', minute, 'минут', second, 'сек')
